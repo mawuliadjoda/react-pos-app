@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+invoice-maker/node_modules
+invoice-maker/.pnp
+invoice-maker.pnp.js
+
+# testing
+invoice-maker/coverage
+
+# production
+invoice-maker/build
+
+# misc
+invoice-maker/.DS_Store
+invoice-maker/.env.local
+invoice-maker/.env.development.local
+invoice-maker/.env.test.local
+invoice-maker/.env.production.local
+
+invoice-maker/npm-debug.log*
+invoice-maker/yarn-debug.log*
+invoice-maker/yarn-error.log*
