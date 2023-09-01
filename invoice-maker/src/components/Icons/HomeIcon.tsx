@@ -1,6 +1,6 @@
-import React from "react";
 
-function HomeIcon(props) {
+
+function HomeIcon(props: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo } from "react";
+import { useCallback, useMemo } from "react";
 import { motion } from "framer-motion";
 import { NavLink, useLocation } from "react-router-dom";
 import { useAppContext } from "../../context/AppContext";
@@ -32,6 +32,12 @@ const NAV_DATA = [
   {
     title: "Products",
     link: "products",
+    Icon: ProductIcon,
+  },
+
+  {
+    title: "Suppliers",
+    link: "suppliers",
     Icon: ProductIcon,
   },
 ];
